@@ -1,2 +1,11 @@
-# real-estate-management-system
-Full-stack MERN application for managing real estate properties with authentication, dashboard, search, and image uploads.
+# Real Estate Management System
+
+A full-stack MERN application for managing real estate properties.
+
+## Tech Stack
+
+- React
+- Node.js
+- Express
+- MongoDB
+- JWT Authentication
