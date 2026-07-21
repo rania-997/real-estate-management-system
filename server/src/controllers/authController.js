@@ -1,5 +1,5 @@
-import User from "../models/userModel";
-import generateToken from "../utils/generateToken";
+import User from "../models/userModel.js";
+import generateToken from "../utils/generateToken.js";
 
 const Register = async (req, res) => {
   try {
@@ -53,3 +53,4 @@ const Login = async (req, res) => {
     res.status(500).json({ message: "login failed" });
   }
 };
+export {Register,Login}
